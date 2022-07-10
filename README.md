@@ -1,22 +1,22 @@
 # Open-Source OS Training Comp 2022
 
-Welcome to Open-Source OS Training Comp 2022（2022年开源操作系统训练营）.
+Welcome to Open-Source OS Training Comp 2022（2022 年开源操作系统训练营）.
 ## Scheduling
-- NOTICE current [**SCHEDULING**](./scheduling.md)（2022年开源操作系统训练营的计划安排）!
-- [News](./news.md)（2022年开源操作系统训练营的新闻和纪要）
+- NOTICE current [**SCHEDULING**](./scheduling.md)（2022 年开源操作系统训练营的计划安排）!
+- [News](./news.md)（2022 年开源操作系统训练营的新闻和纪要）
 ## History
 - [open-source  os training comp 2021](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2021)
 - [open-source  os training  comp 2020](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020)
 
 ## Guide & Lab Test for Rust
-- [learning rust guide](https://course.rs/)（Rust语言圣经）
-- [Rust-lang Lab Test based on Rustlings](https://classroom.github.com/a/YTNg1dEH)（采用Github Classroom模式的Rustling小练习）
+- [learning rust guide](https://course.rs/)（Rust 语言圣经）
+- [Rust-lang Lab Test based on Rustlings](https://classroom.github.com/a/YTNg1dEH)（采用 Github Classroom 模式的 Rustling 小练习）
 ## Guide for OS
-- Guide deployed version can be found [here](https://learningos.github.io/rust-based-os-comp2022/)（精简OS实验指导）
-- [rCore Tutorial v3 Guide](https://rcore-os.github.io/rCore-Tutorial-Book-v3/) (2022春季OS课程讲义)
-- [OS Course Slides in 2022 spring](https://learningos.github.io/os-lectures/)(2022春季OS课程Slides)
-- [OS Course Videos in 2022 spring](./relatedinfo.md)(2022春季OS课程Videos)
-- [OS API Docs in 2022 spring](./relatedinfo.md)(2022春季OS课程实验中 ``cargo doc`` 生成的各章参考OS的API文档)
+- Guide deployed version can be found [here](https://learningos.github.io/rust-based-os-comp2022/)（精简 OS 实验指导）
+- [rCore Tutorial v3 Guide](https://rcore-os.github.io/rCore-Tutorial-Book-v3/) (2022 春季 OS 课程讲义)
+- [OS Course Slides in 2022 spring](https://learningos.github.io/os-lectures/)(2022 春季 OS 课程 Slides)
+- [OS Course Videos in 2022 spring](./relatedinfo.md)(2022 春季 OS 课程 Videos)
+- [OS API Docs in 2022 spring](./relatedinfo.md)(2022 春季 OS 课程实验中 ``cargo doc`` 生成的各章参考 OS 的 API 文档)
  
 First, you can read [Guide](https://learningos.github.io/rust-based-os-comp2022/) to:
 - (Important) `git clone` this repo.
@@ -32,7 +32,7 @@ The 'os[1-8]-ref' are the 'os[1-8]'  reference frameworks.  You can read and cop
 ## kernel labs
 There are two simple practice work, and five kernel labs.
 
-注：登录github.com，点击并打开下面的lab0~lab5的github classroom的链接后，点击醒目绿色按钮"Accept this assignment"选择接受，github就为你创建了一个对应实验的git repo
+注：登录 github.com，点击并打开下面的 lab0~lab5 的 github classroom 的链接后，点击醒目绿色按钮"Accept this assignment"选择接受，github 就为你创建了一个对应实验的 git repo
 
 According to the  [Guide](https://learningos.github.io/rust-based-os-comp2022/), write os codes for:
 - [lab0-0 setup env in 'os1' DIR](https://classroom.github.com/a/hnoWuKGF) ：[Important NOTICE](https://learningos.github.io/rust-based-os-comp2022/chapter1/0intro.html#id4)

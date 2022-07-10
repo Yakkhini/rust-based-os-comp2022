@@ -1,23 +1,23 @@
-## 2022年开源操作系统训练营：第二阶段
+## 2022 年开源操作系统训练营：第二阶段
 
 ## 相关信息
-- **注意：** 为及时了解和指导同学的学习和实践情况并推动学生相互帮助，本次活动要求学生把每日学习实践的过程记录在自己在github的公开repo上。可参考：
-- [徐文浩的2020开源操作系统训练营的过程记录](https://github.com/LearningOS/record)
-- [2021开源操作系统训练营第二阶段总结列表](https://rcore-os.github.io/blog/categories/report/)
-- [2020开源操作系统训练营第二阶段总结：K210组RustSBI开发总结 -- 洛佳](https://rcore-os.github.io/blog/2020/09/06/os-report-final-luojia65/)
-- [2020开源操作系统训练营第二阶段总结：zCore Summer of Code 2020 报告 -- 车春池](https://rcore-os.github.io/blog/2020/09/02/zcore_report_chechunchi/)
-- [2020开源操作系统训练营第二阶段总结：移植rCore-Tutorial 到k210 -- 徐文浩](https://rcore-os.github.io/blog/2020/08/30/report-k210/)
-- [2020开源操作系统训练营第二阶段总结：rCore 到 zCore 功能迁移组报告 -- 郑昱笙、李宇](https://rcore-os.github.io/blog/2020/08/30/report-of-rCore-to-zCore/)
+- **注意：** 为及时了解和指导同学的学习和实践情况并推动学生相互帮助，本次活动要求学生把每日学习实践的过程记录在自己在 github 的公开 repo 上。可参考：
+- [徐文浩的 2020 开源操作系统训练营的过程记录](https://github.com/LearningOS/record)
+- [2021 开源操作系统训练营第二阶段总结列表](https://rcore-os.github.io/blog/categories/report/)
+- [2020 开源操作系统训练营第二阶段总结：K210 组 RustSBI 开发总结 -- 洛佳](https://rcore-os.github.io/blog/2020/09/06/os-report-final-luojia65/)
+- [2020 开源操作系统训练营第二阶段总结：zCore Summer of Code 2020 报告 -- 车春池](https://rcore-os.github.io/blog/2020/09/02/zcore_report_chechunchi/)
+- [2020 开源操作系统训练营第二阶段总结：移植 rCore-Tutorial 到 k210 -- 徐文浩](https://rcore-os.github.io/blog/2020/08/30/report-k210/)
+- [2020 开源操作系统训练营第二阶段总结：rCore 到 zCore 功能迁移组报告 -- 郑昱笙、李宇](https://rcore-os.github.io/blog/2020/08/30/report-of-rCore-to-zCore/)
 - [陈兴的每日学习实践的过程记录](https://github.com/GCYYfun/DailySchedule)
 
 
-## 日程：第一周：zCore讲解与学习（7天）
-- zCore结构和核心组件
-- zCore系统调用
-- zCore硬件移植与驱动开发
-- zCore应用开发
+## 日程：第一周：zCore 讲解与学习（7 天）
+- zCore 结构和核心组件
+- zCore 系统调用
+- zCore 硬件移植与驱动开发
+- zCore 应用开发
 
-## 日程：第二~第四周：rCore/zCore研究项目 (34天)
+## 日程：第二~第四周：rCore/zCore 研究项目 (34 天)
 目前设置了多个项目，学生可选择参加下面的项目，指导老师制定以周为单位的项目研究计划。
 
 
@@ -52,14 +52,14 @@
    - 熟悉操作系统原理与简易实现
    - 具有基础英文阅读和写作能力
 
-7. 2022春季OS课相关大实验的开源软件仓库列表(鼓励进一步改进和扩展)：
-  - [类似ebpf的rcore trace](https://github.com/latte-c/rvjit)
+7. 2022 春季 OS 课相关大实验的开源软件仓库列表 (鼓励进一步改进和扩展)：
+  - [类似 ebpf 的 rcore trace](https://github.com/latte-c/rvjit)
   - [硬件级用户态中断模拟与系统软件支持](https://github.com/OS-F-4/usr-intr)
-  - [支持异步协程的zCore](https://github.com/orgs/OSLab-zCore/)
-  - [用rust重新实现FreeRTOS](https://github.com/LDYang694/RFREERTOS)
-  - [用rust重新实现Linux的KVM](https://github.com/KaitoD/linux) 
-  - [基于x86_64的rCore-Tutorial-v3](https://github.com/rcore-os/rCore-Tutorial-v3-x86_64)
-  - [基于AARCH64的rCore-Tutorial-v3](https://github.com/rcore-os/rCore-Tutorial-v3-arm64)
+  - [支持异步协程的 zCore](https://github.com/orgs/OSLab-zCore/)
+  - [用 rust 重新实现 FreeRTOS](https://github.com/LDYang694/RFREERTOS)
+  - [用 rust 重新实现 Linux 的 KVM](https://github.com/KaitoD/linux) 
+  - [基于 x86_64 的 rCore-Tutorial-v3](https://github.com/rcore-os/rCore-Tutorial-v3-x86_64)
+  - [基于 AARCH64 的 rCore-Tutorial-v3](https://github.com/rcore-os/rCore-Tutorial-v3-arm64)
 ### zCore 的文档与单元测试完善
 
 1. 项目标题：zCore 的文档与单元测试完善
@@ -76,17 +76,17 @@
      目标让 `zircon-object` 模块的测试覆盖率提高到 90% 以上。
    - （可选）在 CI 中支持运行集成测试。
      目标是最大化整体的测试覆盖率。
-   - （可选）在zCore中添加zircon/linux的syscall。
-     目标：完善添加zCore内核功能，让zCore通过更多的zircon tests(基于zircon的coretest)或Linux tests（基于musl libc的libc test）或相关应用
+   - （可选）在 zCore 中添加 zircon/linux 的 syscall。
+     目标：完善添加 zCore 内核功能，让 zCore 通过更多的 zircon tests(基于 zircon 的 coretest) 或 Linux tests（基于 musl libc 的 libc test）或相关应用
 
 7. 项目技术要求：
    - 具备一定的 Rust 语言基础，能看懂并模仿现有代码即可
    - 熟悉操作系统原理与简易实现
    - 具有基础英文阅读和写作能力
 8. 相关的开源软件仓库列表：
-   - https://github.com/rcore-os/zCore （zCore 仓库）
-   - https://rcore-os.github.io/zCore/zircon_object （zCore 代码文档）
-   - https://fuchsia.dev/fuchsia-src/reference （Zircon 官方文档）
+   - https://github.com/rcore-os/zCore（zCore 仓库）
+   - https://rcore-os.github.io/zCore/zircon_object（zCore 代码文档）
+   - https://fuchsia.dev/fuchsia-src/reference（Zircon 官方文档）
 
 
 ### zCore 的星光/SiFive/树莓派等开发板和外设支持
@@ -104,10 +104,10 @@
 7. 项目技术要求：
    - 熟悉 Rust 语言
    - 熟悉 RISC-V64 指令集，或做过其它平台的底层移植工作
-   - 熟悉K210的开发经验
+   - 熟悉 K210 的开发经验
 8. 相关的开源软件仓库列表：
-   - https://github.com/rcore-os/zCore （zCore 仓库）
-   - https://github.com/rcore-os/rCore （rCore 仓库，支持RISC-V）
+   - https://github.com/rcore-os/zCore（zCore 仓库）
+   - https://github.com/rcore-os/rCore（rCore 仓库，支持 RISC-V）
    - https://github.com/kendryte/kendryte-doc-datasheet
    - https://github.com/sipeed/MaixPy
 
@@ -126,8 +126,8 @@
    - 熟悉 Rust 语言
    - 熟悉 Linux 系统调用
 8. 相关的开源软件仓库列表：
-   - https://github.com/rcore-os/zCore （zCore 仓库）
-   - https://github.com/rcore-os/rCore （rCore 仓库）
+   - https://github.com/rcore-os/zCore（zCore 仓库）
+   - https://github.com/rcore-os/rCore（rCore 仓库）
    
 ### 改进 RVM 虚拟机
 
@@ -148,8 +148,8 @@
    - 熟悉虚拟化技术
    - 熟悉 x86_64 指令集，理解 VMX 的原理和基于 VMX 的开发
 8. 相关的开源软件仓库列表：
-   - https://github.com/rcore-os/rCore （rCore 仓库）
-   - https://github.com/equation314/rCore/tree/rvm （正在开发中的包含 RVM 的 rCore 仓库）
-   - https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials （树莓派上的 Rust OS 教程）
-   - https://github.com/siemens/jailhouse （基于 Linux module 的 Hypervisor）
+   - https://github.com/rcore-os/rCore（rCore 仓库）
+   - https://github.com/equation314/rCore/tree/rvm（正在开发中的包含 RVM 的 rCore 仓库）
+   - https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials（树莓派上的 Rust OS 教程）
+   - https://github.com/siemens/jailhouse（基于 Linux module 的 Hypervisor）
 
